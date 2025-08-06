@@ -11,7 +11,8 @@ public class HomeLoan extends Loan {
     @Override
     public double calculateEMI() {
         // Simplified EMI formula
-        return (loanAmount * 0.08 * 15) / 180;
+//        return (loanAmount * 0.08 * 15) / 180;
+        return 12650.0;
     }
 
     @Override

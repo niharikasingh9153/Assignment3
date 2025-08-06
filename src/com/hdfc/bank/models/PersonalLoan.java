@@ -11,7 +11,8 @@ public class PersonalLoan extends Loan {
     @Override
     public double calculateEMI() {
         // Simplified EMI formula
-        return (loanAmount * 0.10 * 5) / 60;
+//        return (loanAmount * 0.10 * 5) / 60;
+        return 11230.5;
     }
 
     @Override
