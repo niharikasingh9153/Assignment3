@@ -19,8 +19,8 @@ public class Main {
 
         for (Loan loan : loanList) {
             service.printEMIDetails(loan);  // Polymorphism in action
-            System.out.println("Implicit toString: " + loan); // toString implicit
-            System.out.println("Explicit toString: " + loan.toString()); // toString explicit
+//            System.out.println("Implicit toString: " + loan); // toString implicit
+//            System.out.println("Explicit toString: " + loan.toString()); // toString explicit
             System.out.println("--------------");
         }
 

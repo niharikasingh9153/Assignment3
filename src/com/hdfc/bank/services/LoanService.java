@@ -9,12 +9,12 @@ public class LoanService {
     // This method demonstrates polymorphism (dynamic dispatch)
     public void printEMIDetails(Loan loan) {
         // Print in sample output format
-        System.out.println(
-                "Loan ID: " + loan.getLoanId() +
-                        " | Customer: " + loan.customerName +
-                        " | Type: " + loan.getClass().getSimpleName() +
-                        " | EMI: " + loan.calculateEMI()
-        );
+        System.out.printf("Loan ID: %d | Customer: %s | Type: %s | EMI: %.2f%n",
+                loan.getLoanId(),
+                loan.customerName,
+                loan.getClass().getSimpleName(),
+                loan.calculateEMI());
+
 
         // Downcasting using instanceof to access subclass-specific fields
         if (loan instanceof HomeLoan) {
