@@ -24,11 +24,11 @@ public class HomeLoan extends Loan {
 
     // Overloaded method
     public void applyInsurance() {
-        System.out.println("Home Insurance applied for property at " + propertyAddress);
+//        System.out.println("Home Insurance applied for property at " + propertyAddress);
     }
 
     public void applyInsurance(String insuranceProvider) {
-        System.out.println("Home Insurance applied with " + insuranceProvider + " for property at " + propertyAddress);
+//        System.out.println("Home Insurance applied with " + insuranceProvider + " for property at " + propertyAddress);
     }
 
     public String getPropertyAddress() {

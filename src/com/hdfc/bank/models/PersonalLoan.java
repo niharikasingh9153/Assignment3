@@ -24,11 +24,11 @@ public class PersonalLoan extends Loan {
 
     // Overloaded method
     public void applyInsurance() {
-        System.out.println("Personal Loan insurance applied for purpose: " + purpose);
+//        System.out.println("Personal Loan insurance applied for purpose: " + purpose);
     }
 
     public void applyInsurance(double coverageAmount) {
-        System.out.println("Personal Loan insurance of ₹" + coverageAmount + " applied for purpose: " + purpose);
+//        System.out.println("Personal Loan insurance of ₹" + coverageAmount + " applied for purpose: " + purpose);
     }
 
     public String getPurpose() {
